@@ -1,0 +1,13 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 3rem;
+}
+
+.jumbotron {
+  background-image: url('../img/olympic_mountains.jpg');
+  height: 52rem;
+}
+
+.jumbo-content--margin-vertical {
+  margin: 1rem auto;
+}
