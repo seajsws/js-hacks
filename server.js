@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.set('port', process.env.PORT || 4100);
+app.set('port', process.env.PORT || 3000);
 app.use(express.static(__dirname + '/public'));
 
 var routes = require('./lib/routes.js')(app);
