@@ -68,9 +68,9 @@
             <h4 class="card-title">Destination 1</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-group" role="group" aria-label="Basic example">
-              <button type="button" class="btn btn-warning">Left</button>
-              <button type="button" class="btn btn-info">Middle</button>
-              <button type="button" class="btn btn-success">Right</button>
+              <button type="button" class="btn btn-warning card-block__btn-cancel" data-text="Cancel Reservation" data-color="btn-warning">Cancel</button>
+              <button type="button" class="btn btn-info card-block__btn-info" data-text="Request Info" data-color="btn-info">More Info</button>
+              <button type="button" class="btn btn-success card-block__btn-reserve" data-text="Confirm Reservation" data-color="btn-success">Reserve</button>
             </div>
           </div>
         </div>
@@ -82,9 +82,9 @@
             <h4 class="card-title">Destination 2</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-group" role="group" aria-label="Basic example">
-              <button type="button" class="btn btn-warning">Left</button>
-              <button type="button" class="btn btn-info">Middle</button>
-              <button type="button" class="btn btn-success">Right</button>
+              <button type="button" class="btn btn-warning card-block__btn-cancel" da data-text="Confirm Reservation" data-color="btn-success"ta-text="Cancel Reservation" data-color="btn-warning">Cancel</button>
+              <button type="button" class="btn btn-info card-block__btn-info" data-text="Request Info" data-color="btn-info">More Info</button>
+              <button type="button" class="btn btn-success card-block__btn-reserve">Reserve</button>
             </div>
           </div>
         </div>
@@ -96,9 +96,9 @@
             <h4 class="card-title">Destination 3</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="btn-group" role="group" aria-label="Basic example">
-              <button type="button" class="btn btn-warning">Left</button>
-              <button type="button" class="btn btn-info">Middle</button>
-              <button type="button" class="btn btn-success">Right</button>
+              <button type="button" class="btn btn-warning card-block__btn-cancel" data-text="Cancel Reservation" data-color="btn-warning">Cancel</button>
+              <button type="button" class="btn btn-info card-block__btn-info" data-text="Request Info" data-color="btn-info">More Info</button>
+              <button type="button" class="btn btn-success card-block__btn-reserve" data-text="Confirm Reservation" data-color="btn-success">Reserve</button>
             </div>
           </div>
         </div>
@@ -130,26 +130,26 @@
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label class="form-control-label">Name:</label>
-                    <input type="text" class="form-control">
+                    <input type="text" name="name" class="form-control">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label class="form-control-label">Account #:</label>
-                    <input type="text" class="form-control">
+                    <input type="text" name="account" class="form-control">
                   </div>
                 </div>
               </div>
               <div class="form-group">
                 <label class="form-control-label">Message:</label>
-                <textarea class="form-control"></textarea>
+                <textarea class="form-control" name="message"></textarea>
               </div>
             </form>
           </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Send Data</button>
+          <button type="button" class="btn btn-primary demo-modal__send-data">Send Data</button>
         </div>
       </div>
     </div>
