@@ -15,4 +15,10 @@
     in index.html
    You can add additional routes in `lib/routes.js` if you are so inclined
   
+BONUS:
+- [ ] Add additional routes to lib/routes.js
+- [ ] Make the docFragger and dataLogger utility functions more robust and versatile
+- [ ] * Install and run [ngrok](https://ngrok.com/) so you can visit and test your app on a public IP! (disclaimer: seajsws assumes no responsibility for the security of said app.)
+- [ ] ** Secure said publicly-exposed app using ngrok!! (* I've read this can be done *).
+
 > Hope you enjoy and **WIN FOREVER!** :neckbeard::boom::metal::fire::triumph::dancer:
