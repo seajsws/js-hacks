@@ -17,10 +17,11 @@ $(document).ready(() => {
     var docFragger = function (...args) {
         var frag = document.createDocumentFragment();
         for (let item of args) {
-            var p = document.createElement('p');
-            p.style.display = 'inline-block';
-            p.textContent = `${item}`;
-            frag.appendChild(p);
+            var span = document.createElement('span');
+            /* Depending on tag used, you might need to adjust display property */
+            // span.style.display = 'inline-block';
+            span.textContent = ` ${item} `;
+            frag.appendChild(span);
         }
         return frag;
     };
